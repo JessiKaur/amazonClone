@@ -1,0 +1,16 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+
+.checkout_left > img {
+  display: flex;
+  object-fit: contain;
+  height: 100px;
+}
+
+.checkout_right {
+  margin-left: 5%;
+}
