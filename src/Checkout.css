@@ -5,10 +5,17 @@
   height: max-content;
 }
 
+.checkout_left {
+  display: flex;
+  align-content: stretch;
+  flex-direction: column;
+}
+
 .checkout_left > img {
   display: flex;
   object-fit: contain;
   height: 100px;
+  width: 100%;
 }
 
 .checkout_right {

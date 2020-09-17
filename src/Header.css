@@ -42,6 +42,10 @@
   color: aliceblue;
 }
 
+.header_nav > a {
+  color: aliceblue;
+}
+
 .header__option {
   display: flex;
   flex-direction: column;
