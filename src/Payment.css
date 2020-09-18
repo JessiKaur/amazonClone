@@ -1,0 +1,48 @@
+.payment {
+  align-items: center;
+}
+
+.payment_top {
+  display: flex;
+  background-color: rgb(238, 169, 40);
+  padding: 5px;
+  margin-bottom: 2%;
+  border: 2px solid #111;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.payment_top > h3:first-child {
+  flex: 0.5;
+}
+.payment_top > h3:last-child {
+  flex: 0.5;
+  text-align: right;
+}
+
+.payment_container {
+  width: 75%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.payment_section {
+  padding: 10px;
+  display: flex;
+  padding-bottom: 15px;
+  margin: 10px 0;
+  border-bottom: 2px solid lightgray;
+}
+
+.payment_title {
+  flex: 0.2;
+}
+
+.payment_info {
+  flex: 0.8;
+}
+
+.payment_info .checkoutproduct {
+  border: 1px solid lightgray;
+  padding: 10px 5px;
+}
